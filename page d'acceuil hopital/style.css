@@ -1,0 +1,64 @@
+
+
+.sticky{    /*Banniere*/
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0%;
+	
+	width: 100%;
+	font-family: "Impact";
+	color: rgb(37, 53, 109);
+	height: 50%;}
+
+.nav{ /*Navigation*/
+	position: -webkit-sticky;
+	position: sticky;
+	color: rgb(37, 53, 109);
+	background-color: #fd723b;
+	width: 100%;
+	border: 1px solid;
+	
+}
+
+.nav li{
+	padding: 5% 5%;
+	margin-right: 5%;
+	display: inline;
+	}
+.nav ul li.btn:hover {
+  color: rgb(37, 53, 109);
+  background-color: #f50909;
+  transition: 0.9s all;
+  /*padding: 10px;*/	
+  
+}
+.nav ul li.btn a{
+	text-decoration: none;
+}
+.mid{
+    text-align: center;
+}
+.droite{
+    text-align: right;
+}
+.li a {
+    display: block;
+  }
+    .nav li.btn {
+		width: 100%;
+		position: relative;
+        padding: 15px 0px;
+	margin-right: 50px;
+	display: inline;
+	}
+   .nav ul {
+    list-style-type: none;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 0;
+	margin-bottom:15px;
+}
+.gauche{
+	margin-top: 0px;
+	display: block;
+}
